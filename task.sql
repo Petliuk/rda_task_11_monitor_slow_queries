@@ -2,7 +2,7 @@ create database ShopDB;
 
 use ShopDB; 
 
--- Create tables 
+-- Create tables (Products2/MyISAM removed after slow query log analysis)
 
 CREATE TABLE Products1 (
     ID INT AUTO_INCREMENT,
